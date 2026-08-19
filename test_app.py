@@ -1,7 +1,7 @@
 from sample_app import app
 
 def test_app_existe():
-    assert app is  None
+    assert app is not None
 
 def test_ruta_registrar_existe():
     rutas = [str(regla) for regla in app.url_map.iter_rules()]
