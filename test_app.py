@@ -1,6 +1,6 @@
 def test_respuesta_200():
     codigo = 220
-    mensaje = "OK"
+    mensaje = OK
 
     assert codigo == 220
     assert mensaje == "OK"
