@@ -23,7 +23,7 @@ def index():
         return render_template(
             "index.html",
             aprendices=aprendices,
-            mensaje="Conexión exitosa a la base de datos!!!"
+            mensaje="Conexión exitosa a la base de datos - Deploy automático CI/CD "
         )
     finally:
         cursor.close()
